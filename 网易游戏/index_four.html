@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- 引入样式 -->
+		<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+		<!-- 引入组件库 -->
+		<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+	</head>
+	<body>
+		<el-switch
+		  v-model="value"
+		  active-color="#13ce66"
+		  inactive-color="#ff4949">
+		</el-switch>
+
+	</body>
+</html>
+<script>
+  export default {
+    data() {
+      return {
+        value: true
+      }
+    }
+  };
+</script>

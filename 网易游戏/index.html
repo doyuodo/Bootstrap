@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="from" content="git:NIE/nie-gw-pc-20150413">
+		<meta name="keywords"
+			content="网易游戏,网易,网游,网络游戏,在线游戏,游戏,回合制,大型角色扮演,回合制,2D,3D,梦幻西游2,大话西游Ⅱ,大话西游,梦幻,大话,魔兽世界,魔兽,wow,天下3,大唐无双2,游戏热爱者,热爱才懂,指尖的热爱">
+		<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" style="border-radius: 50%;">
+		<title>网易游戏官网_游戏热爱者</title>
+		<!-- 引进Bootstrap文件    主题色 —— background: #cf1132;   -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap_modify.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<script src="js/vue.js"></script>
+	</head>
+
+	<body>
+		<!--  nav ~ 导航栏部分 -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-bar">
+			<div class="container">
+				<a class="navbar-brand" href="loading.html"><img src="img/logo1_d853983.png" title="网易游戏"></a>
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+					data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="navbar-collapse collapse" id="navbarsExample07" style="">
+					<ul class="navbar-nav mr-auto ml-5">
+						<li class="nav-item active">
+							<a class="nav-link text-black-50" href="#">网易游戏会员俱乐部 <span class="sr-only">网 易</span></a>
+						</li>
+						<li class="nav-item text-black-50">
+							<a class="nav-link text-black-50" href="#">关于网易游戏</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled text-black-50" href="#">合作产品部</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-black-50" href="#" id="dropdown07"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">更多</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown07">
+								<a class="dropdown-item" href="#">👥跨界合作</a>
+								<a class="dropdown-item" href="#">☎️客服中心</a>
+								<a class="dropdown-item" href="#">🧑‍💻人才招聘</a>
+							</div>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-md-0" action="loading.html">
+						<input class="form-control" type="text" placeholder="再探北溟，魔域危途...    🔍" aria-label="Search">
+					</form>
+				</div>
+			</div>
+		</nav>
+		<!-- banner ~卡片轮播效果部分 轮播-->
+
+		<section class="jumbotron text-center bg_pr">
+			<div class="container animate__animated animate__fadeInUp" id="PR">
+				<h1 class="jumbotron-heading text-danger">{{clouds}}</h1>
+				<p class="lead text-black-50">
+					网易2001年正式成立在线游戏事业部，与广大游戏热爱者一同成长。经过20年的快速发展，网易已跻身全球七大游戏公司之一。作为中国领先的游戏开发公司，网易一直处于网络游戏自主研发领域的前端。</p>
+				<p>
+					<a href="#" class="btn btn-danger px-4" @click="changer">网易简介</a>
+					<a href="#" class="btn btn-secondary ml-4 px-4" @click="changer">官网查询</a>
+				</p>
+			</div>
+		</section>
+
+		<ul class="nav justify-content-center">
+			<!-- 左边动画 start -->
+			<li class="nav-item animate__animated animate__fadeInLeft">
+				<a class="nav-link active" href="index_two.html"><img src="img/01.jpg" alt="" width="250"
+						height="120"></a>
+			</li>
+			<li class="nav-item animate__animated animate__fadeInLeft">
+				<a class="nav-link" href="index_two.html"><img src="img/02.png" alt="" width="250" height="120"></a>
+			</li>
+			<!-- 左边动画 end -->
+			
+			<!-- 右边动画 start -->
+			<li class="nav-item animate__animated animate__fadeInRight">
+				<a class="nav-link" href="index_two.html"><img src="img/03.jpg" alt="" width="250" height="120"></a>
+			</li>
+			<li class="nav-item animate__animated animate__fadeInRight">
+				<a class="nav-link" href="index_two.html"><img src="img/04.png" alt="" width="250" height="120"></a>
+			</li>
+			<!-- 右边动画 end -->
+		</ul>
+		<!-- banner-title -->
+		<!-- 热门游戏 -->
+		<div class="container my-5">
+			<!--  官方社群-->
+			<div class="container">
+				<div class="border-left-nav">
+					<p class="pl-3"> 官方社群</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-9">
+					<!-- 9 -->
+					<div class="container">
+						<div class="btn-group text-center" role="group" aria-label="Basic example">
+							<button type="button" class="btn btn-outline-danger pt-6 px-6" .class="btn-bg"><img
+									src="img/创作.png" alt="." width="70" height="70">
+								<p class="mt-2">网易游戏</p>
+							</button>
+							<button type="button" class="btn btn-outline-danger pt-6 px-6"><img src="img/第五.png" alt="."
+									width="70" height="70">
+								<p class="mt-2">第五人格</p>
+							</button>
+							<button type="button" class="btn btn-outline-danger pt-6 px-6"><img src="img/GY.png" alt="."
+									width="70" height="70">
+								<p class="mt-2">光 遇</p>
+							</button>
+							<button type="button" class="btn btn-outline-danger pt-6 px-6"><img src="img/率士.png" alt="."
+									width="70" height="70">
+								<p class="mt-2">网易游戏</p>
+							</button>
+							<button type="button" class="btn btn-outline-danger pt-6 px-6"><img src="img/零号任务.png"
+									alt="." width="70" height="70">
+								<p class="mt-2">零号任务</p>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<!-- 3 扫码登陆 -->
+					<ul class="list-group">
+						<img src="img/扫码.png" alt="">
+					</ul>
+				</div>
+			</div>
+			<!-- 热门游戏 -->
+			<div class="row mt-5">
+				<!-- col-9 左边-->
+				<div class="col-lg-9">
+					<div class="container">
+						<div class="border-left-nav">
+							<p class="pl-3">热门游戏</p>
+						</div>
+						<!-- 主题展示区 banner -->
+						<!-- 01 -->
+						<div class="row">
+							<div class="col-lg-4 col-md-6">
+								<div class="card border" style="width: 250px;">
+									<img class="card-img-top" src="img/demo01.jpg" alt="Card image cap">
+									<div class="text-left p-3">
+										<h6 class="h5">《新倩女幽魂》</h6>
+										<small class="card-text">全新国风文旅计划盛大起航！龙门石窟研究院联动开启，共启跨越千年的守护！</small>
+										<hr>
+										<div class="text-right">
+											<small>
+												<a href="#" class="text-right"> 进入官网 -></a>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card border" style="width: 250px;">
+									<img class="card-img-top" src="img/demo02.jpg" alt="Card image cap">
+									<div class="text-left p-3">
+										<h6 class="h5">《轩辕剑龙舞云山》</h6>
+										<small class="card-text ">云山生存战、花灯寻缘活动、全新赛季制竞技场，暖阳七月邀君畅游清凉盛夏！</small>
+										<hr>
+										<div class="text-right">
+											<small>
+												<a href="#" class="text-right"> 进入官网 -></a>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card border" style="width: 250px;">
+									<img class="card-img-top" src="img/demo03.jpg" alt="Card image cap">
+									<div class="text-left p-3">
+										<h6 class="h5">《率土之滨》</h6>
+										<small class="card-text ">不负热爱，崭露锋芒！《率土之滨》 OPL职业联赛春季赛总决赛6月25日开战！</small>
+										<hr>
+										<div class="text-right">
+											<small>
+												<a href="#" class="text-right"> 进入官网 -></a>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 02 -->
+						<div class="row mt-3">
+							<div class="col-lg-4 col-md-6">
+								<div class="card border" style="width: 250px;">
+									<img class="card-img-top" src="img/demo01.jpg" alt="Card image cap">
+									<div class="text-left p-3">
+										<h6 class="h5">《新倩女幽魂》</h6>
+										<small class="card-text">全新国风文旅计划盛大起航！龙门石窟研究院联动开启，共启跨越千年的守护！</small>
+										<hr>
+										<div class="text-right">
+											<small>
+												<a href="#" class="text-right"> 进入官网 -></a>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card border" style="width: 250px;">
+									<img class="card-img-top" src="img/demo02.jpg" alt="Card image cap">
+									<div class="text-left p-3">
+										<h6 class="h5">《轩辕剑龙舞云山》</h6>
+										<small class="card-text ">云山生存战、花灯寻缘活动、全新赛季制竞技场，暖阳七月邀君畅游清凉盛夏！</small>
+										<hr>
+										<div class="text-right">
+											<small>
+												<a href="#" class="text-right"> 进入官网 -></a>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card border" style="width: 250px;">
+									<img class="card-img-top" src="img/demo03.jpg" alt="Card image cap">
+									<div class="text-left p-3">
+										<h6 class="h5">《率土之滨》</h6>
+										<small class="card-text ">不负热爱，崭露锋芒！《率土之滨》 OPL职业联赛春季赛总决赛6月25日开战！</small>
+										<hr>
+										<div class="text-right">
+											<small>
+												<a href="#" class="text-right"> 进入官网 -></a>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- col-3  右边-->
+				<div class="col-lg-3">
+
+					<div class="border-left-nav">
+						<p class="pl-3"> 新游测试🧑‍💻</p>
+					</div>
+					<!-- 右边banner -->
+					<ul class="list-group">
+						<img src="img/banner01.png" alt="">
+						<!-- 光遇 -->
+						<li class="list-group-item d-flex">
+
+							<img src="img/GY.png" alt="" width="60" height="60">
+
+							<p class="pl-3 mr-auto">
+								<em class="h5">光 遇</em><br>
+								<span class="text-color">全平台公测</span><br>
+								<small class="pt-1">⏲️5月26</small>
+							</p>
+							<a href="#">
+								<i>
+									<img src="img/you.png" alt="" class="mt-4">
+								</i>
+							</a>
+						</li>
+
+						<!-- 率师之滨 -->
+						<li class="list-group-item d-flex">
+							<div>
+								<img src="img/率士.png" alt="" width="60" height="60">
+							</div>
+							<p class="pl-3 mr-auto">
+								<em class="h5">率师之滨 </em><br>
+								<span class="text-color">全平台公测</span><br>
+								<small class="pt-1">⏲️5月26</small>
+							</p>
+							<a href="#">
+								<i>
+									<img src="img/you.png" alt="" class="mt-4">
+								</i>
+							</a>
+						</li>
+
+						<!-- 创作热爱计划 -->
+						<li class="list-group-item d-flex">
+							<div>
+								<img src="img/创作.png" alt="" width="60" height="60">
+							</div>
+							<p class="pl-3 mr-auto">
+								<em class="h5">创作计划</em><br>
+								<span class="text-color">全平台公测</span><br>
+								<small class="pt-1">⏲️5月26</small>
+							</p>
+							<a href="#">
+								<i>
+									<img src="img/you.png" alt="" class="mt-4">
+								</i>
+							</a>
+						</li>
+
+						<!-- 第五人格 -->
+						<li class="list-group-item d-flex">
+							<div>
+								<img src="img/第五.png" alt="" width="60" height="60">
+							</div>
+							<p class="pl-3 mr-auto">
+								<em class="h5">第五人格 </em><br>
+								<span class="text-color">全平台公测</span><br>
+								<small class="pt-1">⏲️5月26</small>
+							</p>
+							<a href="#">
+								<i>
+									<img src="img/you.png" alt="" class="mt-4">
+								</i>
+							</a>
+						</li>
+
+						<!-- 灵魂任务 -->
+						<li class="list-group-item d-flex">
+							<div>
+								<img src="img/零号任务.png" alt="" width="60" height="60">
+							</div>
+							<p class="pl-3 mr-auto">
+								<em class="h5">灵魂任务</em><br>
+								<span class="text-color">全平台公测</span><br>
+								<small class="pt-1">⏲️5月26</small>
+							</p>
+							<a href="#">
+								<i>
+									<img src="img/you.png" alt="" class="mt-4">
+								</i>
+							</a>
+						</li>
+
+					</ul>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- 版权 ~ footer -->
+		<div class="bg-dark">
+			<div class="p-3 text-white container">
+				<footer class="pt-1 my-md-3 pt-md-3">
+					<div class="row">
+						<div class="col-12 col-md-4 pl-5">
+							<img class="mb-2" src="img/footer01.png" alt="" width="120" height="36">
+							<img class="mb-2" src="img/footer02.png" alt="" width="150" height="36">
+						</div>
+						<div class="col-6 col-md-8">
+							<small class="text-white">公司简介 - 客户服务 - 网易游戏隐私政策及儿童个人信息保护规则 - 网易游戏 - 联系我们 - 商务合作 -
+								加入我们<br></small>
+							<small class="text-white">
+								网易公司版权所有 ©1997-2022 网络游戏行业防沉迷自律公约
+							</small>
+
+						</div>
+
+						<div class="col-12 col-md-12 pt-3 pl-5">
+							<small
+								class="text-white">积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。<br></small>
+							<small class="text-white">
+								《网络文化经营许可证》 粤网文[2020]3377-188号 违法及不良信息举报中心 ICP备案：粤B2-20090191-18
+							</small>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+
+
+		<!-- js 部分  动态效果-->
+		<script src="js/jQuery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.bundle.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
+<script>
+	Vue.config.productionTip = false
+	new Vue({
+		el: "#PR",
+		data: {
+			cloud: true,
+			mood: ''
+		},
+		computed: {
+			clouds() {
+				return this.cloud ? "网易游戏简介" : "官方网站查询"
+			}
+		},
+		methods: {
+			changer() {
+				alert('切换成功~~~~')
+				this.cloud = !this.cloud
+			}
+		},
+
+	})
+</script>
