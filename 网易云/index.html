@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>网易云音乐</title>
+		<!-- 网易云logo   小图标 -->
+		<meta property="og:image" content="img/logo.png" />
+		<link href="img/logo.png" rel="shortcut icon" type="image/x-icon" style="border-radius: 50%;">
+		<!--    彭福生的版权所有     -->
+		<link rel="stylesheet" href="./css/bootstrap.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/style_two.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+	</head>
+	<body>
+		<!-- 改  导航栏-->
+		<div class="bg-dark text-center shadow-lg">
+			<nav class="navbar navbar-expand-xl navbar-dark bg-dark container ">
+				<h1 class="r"><a href="#"></a></h1>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarsExample06">
+					<ul class="list-inline list-unstyled text-center pt-2dian5 pl-2 nav nav-justified nav-tabs mr-auto">
+						<li class="list-inline-item px-1 h6 "><a href="#shouye" data-toggle="tab">首页</a></li>
+						<li class="list-inline-item px-2 h6 "><a href="#faxian" data-toggle="tab">发现音乐</a></li>
+						<li class="list-inline-item px-2 h6 "><a href="#pengyou" data-toggle="tab">朋友</a></li>
+						<li class="list-inline-item px-2 h6 "><a href="#wode" data-toggle="tab">我的音乐</a></li>
+						<li class="list-inline-item px-2 h6 "><a href="#yingyueren" data-toggle="tab">音乐人</a></li>
+						<li class="list-inline-item px-2 h6 "><a href="#xiazai" data-toggle="tab">下载客户端</a></li>
+					</ul>
+					<div class="">
+						<form class="form-inline">
+							<input class="form-control mr-2 shadow rounded-pill" type="text" placeholder="音乐/视频/电台/用户" aria-label="text">
+							<button class="btn btn-outline-danger my-2 rounded-pill" type="button"
+								onclick="window.location.href='index_two.html'">创作者中心</button>
+							<a href="#denglu" class="pl-3 text-secondary" data-toggle="tab">登录</a>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- kaishi1 -->
+		<div class="tab-content">
+			<!-- 壹 -->
+			<div class="tab-pane fade active show" id="shouye">
+				<!-- 小导航栏 红背景 -->
+				<div class="herad">
+					<div class="container">
+						<div class="row">
+							<ul class="text-center">
+								<li class="list-inline-item pl-5"></li>
+								<li class="list-inline-item pl-5"></li>
+								<li class="list-inline-item pl-4"></li>
+								<li class="list-inline-item px-3"><a href="index_three.html" class="p-1">推荐</a></li>
+								<li class="list-inline-item px-3 "><a href="index_two.html" class="p-1">排行榜<i
+											class="bi bi-bar-chart-fill"></i></a></li>
+								<li class="list-inline-item px-3 "><a href="index_three.html" class="p-1">歌单</a></li>
+								<li class="list-inline-item px-3 "><a href="index_three.html" class="p-1">主播电台</a></li>
+								<li class="list-inline-item px-3 "><a href="index_two.html" class="p-1">歌手</a></li>
+								<li class="list-inline-item px-3 "><a href="index.html" class="p-1">新碟上架</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 网易轮播图   轮播效果图 -->
+				<div class="gg">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-7">
+								<div class="carousel slide show w-100 carousel-fade" id="sample" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#sample" data-slide-to="0" class="active"></li>
+										<li data-target="#sample" data-slide-to="1"></li>
+										<li data-target="#sample" data-slide-to="2"></li>
+										<li data-target="#sample" data-slide-to="3"></li>
+										<li data-target="#sample" data-slide-to="4"></li>
+										<li data-target="#sample" data-slide-to="5"></li>
+									</ol>
+									<!-- 1. 轮播的内容 -->
+									<div class="carousel-inner ml-sm-5">
+										<!-- 第1页 -->
+										<div class="carousel-item active">
+											<img src="./img/lb_01.jpg" class="w-100">
+										</div>
+										<!-- 第2页 -->
+										<div class="carousel-item">
+											<img src="./img/lb_02.jpg" class="w-100">
+										</div>
+										<!-- 第3页 -->
+										<div class="carousel-item">
+											<img src="./img/lb_03.jpg" class="w-100">
+										</div>
+										<div class="carousel-item">
+											<img src="./img/lb_04.jpg" class="w-100">
+										</div>
+										<div class="carousel-item">
+											<img src="./img/lb_05.jpg" class="w-100">
+										</div>
+										<div class="carousel-item">
+											<img src="./img/lb_07.jpg" class="w-100">
+										</div>
+									</div>
+									<!-- 彭福生版权所有 -->
+									<a href="#sample" class="carousel-control-prev" data-slide="prev"><span
+											class="carousel-control-prev-icon"></span></a>
+									<a href="#sample" class="carousel-control-next" data-slide="next"><span
+											class="carousel-control-next-icon"></span></a>
+								</div>
+							</div>
+							<!-- col-5  点击部分-->
+							<div class="col-sm-5  d-sm-block d-none">
+								<div class="carousel slide show w-100" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#sample" data-slide-to="0" class="active sr-only"></li>
+										<li data-target="#sample" data-slide-to="1" class="sr-only"></li>
+									</ol>
+									<!-- 1. 轮播的内容 -->
+									<div class="carousel-inner">
+										<!-- 第1页 -->
+										<div class="carousel-item active ml-sm-5">
+											<img src="./img/lb_tities.png" class="w-50">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 轮播结束 -->
+				<!-- 新添加部分 有侧导航栏 -->
+				<div class="container mt-5">
+
+					<div class="row">
+						<div class="col-md-8">
+							<div class="border-bottom-da">
+								<span class="h3 text-danger my-5">专辑歌曲</span>&nbsp;
+								<small style="font-size: 13px;"><a href="#"
+										class="text-dark pl-3 text-black-50 text-center">华语</a></small>
+								<small style="font-size: 13px;"><a href="#"
+										class="text-dark pl-3 text-black-50">流行</a></small>
+								<small style="font-size: 13px;"><a href="#"
+										class="text-dark pl-3 text-black-50">电子</a></small>
+								<small style="font-size: 13px;"><a href="#"
+										class="text-dark pl-3 text-black-50">民谣</a></small>
+								<small style="font-size: 13px;"><a href="#"
+										class="text-dark pl-3 text-black-50">摇滚</a></small>
+								<small style="font-size: 16px;" class=" float-right dropdown ">
+									<a href="#" class="text-danger pr-4" data-toggle="dropdown">更多
+										<i class="bi bi-play-circle"></i>
+										<!--小图标-->
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#">新歌专辑</a>
+										<a class="dropdown-item" href="#">超前预告</a>
+										<a class="dropdown-item" href="#">更多...</a>
+									</div>
+								</small>
+							</div>
+							<div class="row">
+								<div class="card col-3 mt-4">
+									<img src="img/变废为宝.jpeg" class="img-fluid">
+									<p class="p py-1">听完这首歌，就把你忘记了</p>
+								</div>
+								<div class="card col-3 mt-4">
+									<img src="img/天外来物.webp" class="img-fluid ">
+									<p class="p py-1">当今最火的英文歌五十首</p>
+								</div>
+								<div class="card col-3 mt-4">
+									<img src="img/尘.jpg" class="img-fluid ">
+									<p class="p py-1">中文DJ·咕咚版·弹鼓版·烟嗓版(Remix)</p>
+								</div>
+								<div class="card col-3 mt-4">
+									<img src="img/test01.jpeg" class="img-fluid ">
+									<p class="p py-1">蹦最野的迪 泡最靓的仔</p>
+								</div>
+								<!-- 第二行  rows-->
+								<div class="card col-3 mt-4">
+									<img src="img/test02.jpeg" class="img-fluid ">
+									<p class="p py-1">仙女化妆/洗澡/敷面膜歌单 卡点 节奏</p>
+								</div>
+								<div class="card col-3 mt-4">
+									<img src="img/test03.jpg" class="img-fluid ">
+									<p class="p py-1">天气不似预期</p>
+								</div>
+								<div class="card col-3 mt-4">
+									<img src="img/test04.jpg" class="img-fluid ">
+									<p class="p py-1">听完这首歌，就把你忘记了</p>
+								</div>
+								<div class="card col-3 mt-4">
+									<img src="img/test05.jpg" class="img-fluid ">
+									<p class="p py-1">听完这首歌，就把你忘记了</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 order-md-2 my-2">
+							<h4 class="d-flex justify-content-between align-items-center mb-3">
+								<span class="text-danger text-center px-3">歌曲</span>
+								<span class="badge badge-danger badge-pill">999</span>
+							</h4>
+							<ul class="list-group mb-3 shadow">
+								<li class="list-group-item d-flex justify-content-between lh-condensed">
+									<div>
+										<h6 class="my-0">推荐<i class="bi bi-bar-chart-fill"></i></h6>
+										<small class="">网易云音乐榜</small>
+									</div>
+									<span class=" my-auto">夜曲</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between lh-condensed">
+									<div>
+										<h6 class="my-0">歌单</h6>
+										<small class="text-mutd">网易云音乐榜</small>
+									</div>
+									<span class=" my-auto">七里香</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between lh-condensed">
+									<div>
+										<h6 class="my-0">排行<i class="bi bi-view-list"></i></h6>
+										<small class=my-auto">网易云音乐榜</small>
+									</div>
+									<span class="my-auto">排行榜</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between bg-light">
+									<div class="text-danger">
+										<h6 class="my-0">歌手</h6>
+										<small>EXAMPLECODE</small>
+									</div>
+									<span class="text-danger my-auto">张杰</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between bg-light">
+									<div class="text-danger">
+										<h6 class="my-0">歌手</h6>
+										<small>EXAMPLECODE</small>
+									</div>
+									<span class="text-danger my-auto">张杰</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between">
+									<span>Total (USD)</span>
+									<strong>薛之谦</strong>
+								</li>
+							</ul>
+							<form class="card p-2">
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="薛之谦">
+									<div class="input-group-append">
+										<button type="button" data-toggle="popover" title="错误" data-content="无法访问互联网！"
+											class="btn btn-danger "><i class="bi bi-search"></i>网易一下</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!-- 第二部分 -->
+				<div class="container mt-5">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="border-bottom-da">
+								<span class="h3 text-danger my-5">歌曲列表</span>&nbsp;
+								<small style="font-size: 13px;"><a href="#" class="text-dark">共999+条评论</a></small>
+							</div>
+							<div class="row mt-3">
+								<div class="col-md-4 col-sm-10 ">
+									<img src="./img/test06.jpg" class="rounded img-fluid">
+								</div>
+								<div class="pl-4 col-8">
+									<ul class="list-unstyled pt-1">
+										<li class="h3 text-danger">我的歌单</li>
+										<li class="text-secondary "><a href="#" class="text-info">薛之谦</a><span
+												class="px-2">2021-10-10创建</span></li>
+										<li class="pt-2">
+											<button type="button" class="btn btn-danger shadow">播放全部</button>
+											<button type="button" class="btn btn-light  ml-2">分享</button>
+											<button type="button" class="btn btn-light  ml-2">下载全部</button>
+										</li>
+										<li class="pt-3">歌曲：<span class="text-info">161</span> &nbsp;播放：<span
+												class="text-info">128</span></li>
+									</ul>
+									<small
+										class="h6">薛之谦擅长写旋律，但是编曲弱，弦乐很出彩，非常抓耳。知多少人庸庸碌碌一生，依旧不得梦想两个字的真意。愿薛之谦继续享受音乐，享受追求梦想的过程。</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h4 class="d-flex justify-content-between align-items-center mb-3  border-bottom-da">
+								<span class="text-danger text-center px-3"><i
+										class="bi bi-pin h5 text-danger"></i>歌手</span>
+								<!-- <span class="badge badge-danger badge-pill">999</span> -->
+							</h4>
+							<ul class="list-unstyled">
+								<li class="media p-2 border my-1">
+									<img class="mr-3" src="img/text13.jpg" alt="">
+									<div class="media-body text-black-50">
+										<h6 class="mt-0 mb-1">音乐人赵雷</h6>
+										<small>
+											民谣歌手，中国....
+										</small>
+									</div>
+									<i class="bi bi-star"></i>
+								</li>
+								<li class="media p-2 border my-1">
+									<img class="mr-3" src="img/test12.jpg" alt="">
+									<div class="media-body text-black-50">
+										<h6 class="mt-0 mb-1">音乐人赵雷</h6>
+										<small>
+											民谣歌手，中国....
+										</small>
+									</div>
+									<i class="bi bi-star"></i>
+								</li>
+								<li class="media p-2 border my-1">
+									<img class="mr-3" src="img/text13.jpg" alt="">
+									<div class="media-body text-black-50">
+										<h6 class="mt-0 mb-1">音乐人赵雷</h6>
+										<small>
+											民谣歌手，中国....
+										</small>
+									</div>
+									<i class="bi bi-star"></i>
+								</li>
+								<li class="media p-2 border my-1">
+									<img class="mr-3" src="img/text13.jpg" alt="">
+									<div class="media-body text-black-50">
+										<h6 class="mt-0 mb-1">音乐人赵雷</h6>
+										<small>
+											民谣歌手，中国....
+										</small>
+									</div>
+									<i class="bi bi-star"></i>
+								</li>
+								<li class="media p-2 border my-1">
+									<img class="mr-3" src="img/test12.jpg" alt="">
+									<div class="media-body text-black-50">
+										<h6 class="mt-0 mb-1">音乐人赵雷</h6>
+										<small>
+											民谣歌手，中国....
+										</small>
+									</div>
+									<i class="bi bi-star"></i>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 第三部分 卡片展示部分 -->
+				<div class="container mt-4">
+
+				</div>
+
+				<!-- 彭福生版权所有 -->
+				<div class="bg-break text-white">
+					<footer class="container pt-5">
+						<div class="row">
+							<div class="col-6 col-md-2">
+								<h5>服务条款</h5>
+								<ul class="list-unstyled text-small">
+									<li><a class="text-muted" href="#">网易云条约</a></li>
+									<li><a class="text-muted" href="#">网络安全条约</a></li>
+									<li><a class="text-muted" href="#">版权协议</a></li>
+									<li><a class="text-muted" href="#">歌曲所有权</a></li>
+									<li><a class="text-muted" href="#">服务</a></li>
+								</ul>
+							</div>
+							<div class="col-6 col-md-2">
+								<h6>隐私政策</h6>
+								<ul class="list-unstyled text-small">
+									<li><a class="text-muted" href="#">儿童隐私相关规定</a></li>
+									<li><a class="text-muted" href="#">相关协议隐私政策</a></li>
+									<li><a class="text-muted" href="#">网易云隐私</a></li>
+									<li><a class="text-muted" href="#">相关政策及版权</a></li>
+									<li><a class="text-muted" href="#">网易云公司版权</a></li>
+									<li><a class="text-muted" href="#">更多相关协议</a></li>
+								</ul>
+							</div>
+							<div class="col-6 col-md-2">
+								<h6>儿童隐私政策</h6>
+								<ul class="list-unstyled text-small">
+									<li><a class="text-muted" href="#">相关网络安全法则</a></li>
+									<li><a class="text-muted" href="#">法律相关保护</a></li>
+									<li><a class="text-muted" href="#">隐私政策</a></li>
+									<li><a class="text-muted" href="#">保护未成年人隐私</a></li>
+									<li><a class="text-muted" href="#">相关儿童隐私权</a></li>
+									<li><a class="text-muted" href="#">保护隐私政策</a></li>
+								</ul>
+							</div>
+							<div class="col-6 col-md-2">
+								<h6>意见反馈</h6>
+								<ul class="list-unstyled text-small">
+									<li><a class="text-muted" href="#">网站投诉</a></li>
+									<li><a class="text-muted" href="#">建议投诉反馈</a></li>
+									<li><a class="text-muted" href="#">管控约束意见反馈</a></li>
+									<li><a class="text-muted" href="#">官网建议</a></li>
+								</ul>
+							</div>
+							<div class="col-6 col-md-2">
+								<h6>广告合作</h6>
+								<ul class="list-unstyled text-small">
+									<li><a class="text-muted" href="#">广告赞助商</a></li>
+									<li><a class="text-muted" href="#">QQ音乐赞助</a></li>
+									<li><a class="text-muted" href="#">酷狗音乐合作</a></li>
+									<li><a class="text-muted" href="#">腾讯公司赞助</a></li>
+								</ul>
+							</div>
+							<div class="col-6 col-md-2">
+								<h6>版权投诉指引</h6>
+								<ul class="list-unstyled text-small">
+									<li><a class="text-muted" href="#">法律相关条约</a></li>
+									<li><a class="text-muted" href="#">版权条约</a></li>
+									<li><a class="text-muted" href="#">网易云相关问题</a></li>
+									<li><a class="text-muted" href="#">投诉指引</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-12 text-center p-2">
+							<hr class="bg-white">
+							© 2021-10-21 武汉软件工程职业学院
+						</div>
+					</footer>
+				</div>
+			</div>
+			<!-- 首页 html  貳 -->
+			<div class="tab-pane fade" id="faxian">
+				<div class="cloud-product-box ">
+					<div class="cloud-product-wrapper">
+						<div class="cloud-product">
+							<p class="cloud-product-title"><span class="text-white">26w+音乐人的选择，中国领先的原创音乐人平台</span></p>
+							<p class="cloud-product-explain">全网领先的一站式发行服务，护航你的音乐之路</p>
+							<ul class="cloud-product-ul clearfix text-black-50">
+								<li data-index="1" class="active shadow-lg">
+									<div class="normal-inner">
+										<div class="cloud-product-single-bottom clearfix">
+											<div class="empty-space">
+												<div class="bg-product-pic server-header-01"></div>
+											</div>
+											<h2 class="product-introduce-title">在电脑上听</h2>
+											<p class="product-introduce-content">客户端稳定动听歌曲</p>
+											<div class="product-introduce-list">
+												<p class="introduce-list-small">千万曲库</p>
+												<p class="introduce-list-small">首CD音质</p>
+												<p class="introduce-list-small">优享歌单</p>
+											</div>
+											<p class="product-introduce-price">
+												<span class="price-blue">49</span>元 /月起
+											</p>
+										</div>
+									</div>
+									<div class="active-inner active-inner-01 clearfix">
+										<div class="active-inner-item">
+											<a class="introduce-link" target="_blank" href="#"></a>
+											<div class="empty-space">
+												<div class="bg-product-pic server-header-active-01"></div>
+											</div>
+											<h2 class="product-introduce-title active-product-introduce-title ">开通VIP
+											</h2>
+											<p class="product-introduce-content">听更多海量歌曲</p>
+											<div class="product-introduce-list">
+												<p class="introduce-list-large">
+													囊括百万无损SQ音乐，你在用手机听歌时，
+													也能感受到纤毫毕现的CD音质，更能免费离线收听
+												</p>
+											</div>
+											<p class="product-introduce-price">
+												<span class="price-white">49</span>元 /月起
+											</p>
+											<a target="_blank" href="#" class="btn buy-link-btn">下载客户端</a>
+										</div>
+									</div>
+								</li>
+								<li data-index="2" class="shadow-lg">
+									<div class="normal-inner">
+										<div class="cloud-product-single-bottom clearfix">
+											<div class="empty-space">
+												<div class="bg-product-pic  server-header-02"></div>
+											</div>
+											<h2 class="product-introduce-title">连续包月</h2>
+											<p class="product-introduce-content">千位明星 亲自推荐音乐</p>
+											<div class="product-introduce-list">
+												<p class="introduce-list-small">明星推荐</p>
+												<p class="introduce-list-small">歌曲榜单</p>
+												<p class="introduce-list-small">好听的歌</p>
+											</div>
+											<p class="product-introduce-price">
+												<span class="price-blue">15</span>元 /月起
+											</p>
+										</div>
+									</div>
+									<div class="active-inner active-inner-02 clearfix">
+										<div class="active-inner-item">
+											<a class="introduce-link" target="_blank" href="#"></a>
+											<div class="empty-space">
+												<div class="bg-product-pic server-header-active-02"></div>
+											</div>
+											<h2 class="product-introduce-title active-product-introduce-title">包月优惠特权
+											</h2>
+											<p class="product-introduce-content">畅享2528万首VIP下载歌曲</p>
+											<div class="product-introduce-list">
+												<p class="introduce-list-large">
+													你可以关注明星、DJ和好友，通过浏览他们的动态、<i
+														class="bi bi-star-fill text-warning"></i>收藏和
+													分享，发现更多全新好音乐
+												</p>
+											</div>
+											<p class="product-introduce-price">
+												<span class="price-white">450</span>元 /月起
+											</p>
+											<a target="_blank" href="#" class="btn buy-link-btn">立即购买</a>
+										</div>
+									</div>
+								</li>
+								<!-- 卡片三 -->
+								<li data-index="3" class="shadow-lg">
+									<div class="normal-inner">
+										<div class="cloud-product-single-bottom clearfix">
+											<div class="empty-space">
+												<div class="bg-product-pic  server-header-03"></div>
+											</div>
+											<h2 class="product-introduce-title">听歌识曲</h2>
+											<p class="product-introduce-content">听歌识曲，几秒就知道歌名</p>
+											<div class="product-introduce-list">
+												<p class="introduce-list-small">卓越的性能体验</p>
+												<p class="introduce-list-small">出色的搜索能力</p>
+												<p class="introduce-list-small">丰富的歌曲资源</p>
+											</div>
+											<p class="product-introduce-price">
+												<span class="price-blue">7</span>元 /月起
+											</p>
+										</div>
+									</div>
+									<div class="active-inner active-inner-03 clearfix">
+										<div class="active-inner-item">
+											<a class="introduce-link" target="_blank" href="#"></a>
+											<div class="empty-space">
+												<div class="bg-product-pic server-header-active-03"></div>
+											</div>
+											<h2 class="product-introduce-title active-product-introduce-title ">听歌识曲
+											</h2>
+											<p class="product-introduce-content">听歌识曲 助你疯狂猜歌</p>
+											<div class="product-introduce-list">
+												<p class="introduce-list-large">
+													歌曲很动听却不知道歌名，歌名在嘴边却想不起来……
+													用听歌识曲功能，几秒钟就知道歌名
+												</p>
+											</div>
+											<p class="product-introduce-price">
+												<span class="price-white">7</span>元 /月起
+											</p>
+											<a target="_blank" href="#" class="btn buy-link-btn">立即体验</a>
+										</div>
+									</div>
+								</li>
+								<!-- 卡片四 -->
+								<li data-index="4" class="shadow-lg">
+									<div class="normal-inner">
+										<div class="cloud-product-single-bottom clearfix">
+											<div class="empty-space">
+												<div class="bg-product-pic  server-header-04"></div>
+											</div>
+											<h2 class="product-introduce-title">音乐人证书</h2>
+											<p class="product-introduce-content">提供音乐人的证书</p>
+											<div class="product-introduce-list">
+												<p class="introduce-list-small">版权支持</p>
+												<p class="introduce-list-small">隐私安全</p>
+												<p class="introduce-list-small">移动设备</p>
+											</div>
+											<p class="product-introduce-price">
+												<span class="price-blue">1</span>元 /年起
+											</p>
+										</div>
+									</div>
+									<div class="active-inner  active-inner-04 clearfix">
+										<div class="active-inner-item">
+											<a class="introduce-link" target="_blank" href="#"></a>
+											<div class="empty-space">
+												<div class="bg-product-pic server-header-active-04"></div>
+											</div>
+											<h2 class="product-introduce-title active-product-introduce-title ">账号注册
+											</h2>
+											<p class="product-introduce-content">提供服务</p>
+											<div class="product-introduce-list">
+												<p class="introduce-list-large">
+													实现网站HTTPS化，使网站可信，防劫持、防篡改、防监听。并对云上证书进行统一生命周期管理，简化证书部署，一键分发到云上产品
+												</p>
+											</div>
+											<p class="product-introduce-price">
+												<span class="price-white">1</span>元 /年起
+											</p>
+											<a target="_blank" href="#" class="btn buy-link-btn">立即选购</a>
+										</div>
+									</div>
+								</li>
+								<li data-index="5" class="shadow-lg">
+									<div class="normal-inner">
+										<div class="cloud-product-single-bottom clearfix">
+											<div class="empty-space">
+												<div class="bg-product-pic server-header-05"></div>
+											</div>
+											<h2 class="product-introduce-title">网易云账号注册</h2>
+											<p class="product-introduce-content">提供免费的域名注册服务</p>
+											<div class="product-introduce-list">
+												<p class="introduce-list-small">网易云实时过户</p>
+												<p class="introduce-list-small">网易云双线解析</p>
+												<p class="introduce-list-small">网易云隐私保护</p>
+											</div>
+											<p class="product-introduce-price">
+												<span class="price-blue">15</span>元 /年起
+											</p>
+										</div>
+									</div>
+									<div class="active-inner active-inner-05 clearfix">
+										<div class="active-inner-item">
+											<a class="introduce-link" target="_blank" href="#"></a>
+											<div class="empty-space">
+												<div class="bg-product-pic server-header-active-05"></div>
+											</div>
+											<h2 class="product-introduce-title active-product-introduce-title ">域名注册
+											</h2>
+											<p class="product-introduce-content">提供域名注册服务</p>
+											<div class="product-introduce-list">
+												<p class="introduce-list-large">
+													超高的解析响应速度，强大的域名自助管理平台，免费的歌曲试听，坚持让您花少量的费用，享更好品质和服务
+												</p>
+											</div>
+											<p class="product-introduce-price">
+												<span class="price-white">15</span>元 /年起
+											</p>
+											<a target="_blank" href="#" class="btn buy-link-btn">立即注册</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<!-- 叁 -->
+			<div class="tab-pane fade" id="pengyou">
+				<div class="w-100">
+					<div class="p-5 text-center display-1">404</div>
+					<div class="container text-center">
+						<p class="h2 p-5">似乎没有网络...<a href="index_two.html" class="text-black-50">请联网后重试或者刷新试一试....</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- 肆 -->
+			<div class="tab-pane fade" id="wode">
+				<div class="w-100">
+					<div class="p-5 text-center display-1">404</div>
+					<div class="container text-center">
+						<p class="h2 p-5">似乎没有网络...<a href="index_two.html" class="text-black-50">请联网后重试或者刷新试一试....</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- 無 -->
+			<div class="tab-pane fade" id="yingyueren">
+				<div class="jumbotron bg-bg text-center text-white">
+					<div class="container">
+						<h2 class="jumbotron-heading">在网易云遇见另外一个自己</h2>
+						<p class="lead  py-5">
+							我等，等一个到最后还在我身边的人，我坚持或者偏执的相信有一个人会看穿我假装的冷漠，真正的靠近我留在我身边，爱着我也给我一个机会去爱她。如果最后能在一起，那么晚点也没关系。</p>
+						<p>
+							<a href="#" class="btn-lg btn-danger my-5">网易云热评文案</a>
+							<a href="#" class="btn-lg btn-secondary my-5 ml-3">更多网易云生活</a>
+						</p>
+					</div>
+				</div>
+				<div class="container pt-5">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card mb-4 shadow-sm">
+								<img src="img/1.jpeg" class="card-img-top">
+								<div class="card-body">
+									<p class="card-text text-justify px-3 py-2">
+										一个人有几风就于万亿个细胞，不断的代谢，它们只为你只了大不比她样物年军风想一要子，你声如当有什么去发这由难过.</p>
+									<div class="d-flex justify-content-between align-items-center px-3">
+										<div class="btn-group-sm">
+											<button type="button" class="btn btn btn-danger"><i
+													class="bi bi-hand-thumbs-up"></i>点赞</button>
+											<button type="button" class="btn btn btn-dark"><i
+													class="bi bi-star-fill text-warning"></i>收藏</button>
+										</div>
+										<small class="text-black-50">网易云热评</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 2 -->
+						<div class="col-md-4">
+							<div class="card mb-4 shadow-sm">
+								<img src="img/1.jpeg" class="card-img-top">
+								<div class="card-body">
+									<p class="card-text text-justify px-3 py-2">
+										一个人有几风就于万亿个细胞，不断的代谢，它们只为你只了大不比她样物年军风想一要子，你声如当有什么去发这由难过.</p>
+									<div class="d-flex justify-content-between align-items-center px-3">
+										<div class="btn-group-sm">
+											<button type="button" class="btn btn btn-danger"><i
+													class="bi bi-hand-thumbs-up"></i>点赞</button>
+											<button type="button" class="btn btn btn-dark"><i
+													class="bi bi-star-fill text-warning"></i>收藏</button>
+										</div>
+										<small class="text-black-50">网易云热评</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 3 -->
+						<div class="col-md-4">
+							<div class="card mb-4 shadow-sm">
+								<img src="img/1.jpeg" class="card-img-top">
+								<div class="card-body">
+									<p class="card-text text-justify px-3 py-2">
+										一个人有几风就于万亿个细胞，不断的代谢，它们只为你只了大不比她样物年军风想一要子，你声如当有什么去发这由难过.</p>
+									<div class="d-flex justify-content-between align-items-center px-3">
+										<div class="btn-group-sm">
+											<button type="button" class="btn btn btn-danger"><i
+													class="bi bi-hand-thumbs-up"></i>点赞</button>
+											<button type="button" class="btn btn btn-dark"><i
+													class="bi bi-star-fill text-warning"></i>收藏</button>
+										</div>
+										<small class="text-black-50">网易云热评</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 4 -->
+						<div class="col-md-4">
+							<div class="card mb-4 shadow-sm">
+								<img src="img/1.jpeg" class="card-img-top">
+								<div class="card-body">
+									<p class="card-text text-justify px-3 py-2">
+										一个人有几风就于万亿个细胞，不断的代谢，它们只为你只了大不比她样物年军风想一要子，你声如当有什么去发这由难过.</p>
+									<div class="d-flex justify-content-between align-items-center px-3">
+										<div class="btn-group-sm">
+											<button type="button" class="btn btn btn-danger"><i
+													class="bi bi-hand-thumbs-up"></i>点赞</button>
+											<button type="button" class="btn btn btn-dark"><i
+													class="bi bi-star-fill text-warning"></i>收藏</button>
+										</div>
+										<small class="text-black-50">网易云热评</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 5 -->
+						<div class="col-md-4">
+							<div class="card mb-4 shadow-sm">
+								<img src="img/1.jpeg" class="card-img-top">
+								<div class="card-body">
+									<p class="card-text text-justify px-3 py-2">
+										一个人有几风就于万亿个细胞，不断的代谢，它们只为你只了大不比她样物年军风想一要子，你声如当有什么去发这由难过.</p>
+									<div class="d-flex justify-content-between align-items-center px-3">
+										<div class="btn-group-sm">
+											<button type="button" class="btn btn btn-danger"><i
+													class="bi bi-hand-thumbs-up"></i>点赞</button>
+											<button type="button" class="btn btn btn-dark"><i
+													class="bi bi-star-fill text-warning"></i>收藏</button>
+										</div>
+										<small class="text-black-50">网易云热评</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 6 -->
+						<div class="col-md-4">
+							<div class="card mb-4 shadow-sm">
+								<img src="img/1.jpeg" class="card-img-top">
+								<div class="card-body">
+									<p class="card-text text-justify px-3 py-2">
+										一个人有几风就于万亿个细胞，不断的代谢，它们只为你只了大不比她样物年军风想一要子，你声如当有什么去发这由难过.</p>
+									<div class="d-flex justify-content-between align-items-center px-3">
+										<div class="btn-group-sm">
+											<button type="button" class="btn btn btn-danger"><i
+													class="bi bi-hand-thumbs-up"></i>点赞</button>
+											<button type="button" class="btn btn btn-dark"><i
+													class="bi bi-star-fill text-warning"></i>收藏</button>
+										</div>
+										<small class="text-black-50">网易云热评</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-dark py-2">
+					<div class="container text-center">
+						<span class="text-white">© 网易云企业集团合作 </span>
+					</div>
+				</div>
+			</div>
+			<!-- 劉 -->
+			<div class="tab-pane fade" id="xiazai">
+				<img src="img/xiazai.png" class="w-100 img-fluid">
+			</div>
+			<!-- 登录html 最后一个tab-pane  柒 -->
+			<div class="tab-pane fade container text-center" id="denglu">
+				<form class="form-signin mt-6">
+					<a href="index.html"><img class="mb-4 shadow" src="img/logo.png" alt="" width="72" height="72"></a>
+					<h1 class="h3 mb-3 font-weight-normal">网易云</h1>
+					<label for="inputEmail" class="sr-only">账号</label>
+					<input type="text" class="form-control" placeholder="账号..." required autofocus>
+					<label for="inputPassword" class="sr-only">密码</label>
+					<input type="password" class="form-control" placeholder="密码..." required>
+					<div class="checkbox mb-2">
+						<label>
+							<input type="checkbox" value="remember-me"><a href="" class="text-dark" data-toggle="modal"
+								data-target="#exampleModalLong">
+								阅读并同意<span class="text-secondary">《网易云网络安全条约》</span>
+							</a>
+						</label>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+							aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLongTitle">《网易云网易云平台服务协议》</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body text-left ">
+										<div class="h5">
+											1. 协议条款的确认和接纳
+										</div><br>
+										1.1
+										欢迎注册、登录网易云网易云平台（以下简称“本平台”或“网易云网易云”）、使用网易云网易云平台服务（以下简称“本服务”或“网易云网易云服务”），请您仔细阅读以下全部内容（特别是粗体标注的内容）。本协议是您与网易云网易云之间关于网易云网易云服务的条款，内容包括本协议正文、《网易邮箱帐号服务条款》、《网易手机帐号服务条款》、本协议明确援引的其他协议及网易云网易云已经发布的或将来可能发布的各类协议和规则。所有协议内容为本协议不可分割的组成部分，与本协议正文具有同等法律效力。除另行明确声明外，您使用网易云网易云服务的行为将受本协议约束。<br>
+										1.2
+										如您选择“点击同意”本协议或者以其他方式开始使用网易云网易云服务，即表示已经与网易云网易云达成协议，并自愿接受本协议的所有内容。您确认，您应当具备中华人民共和国法律规定的与您行为相适应的民事行为能力，确保有能力对您使用有道公司提供服务的一切行为独立承担责任。若您不具备前述主体资格或您是未满十八周岁的未成年人，请在您的监护人的陪同下阅读本服务条款，并在取得他们对您使用服务的行为，以及对本服务条款的同意之后，使用本服务；有道公司在依据法律规定或本协议约定要求您承担责任时，有权向您的监护人追偿。<br>
+										1.3
+										网易云网易云有权根据法律规范及运营的合理需要，不断修改和完善本协议，并在本平台（study.163.com）公告。如您继续使用网易云网易云服务，即意味着同意并自愿遵守修改后的协议条款，亦或您有权终止使用。<br><br>
+										<div class="h5">
+											2.定义
+										</div><br>
+										2.1 您：指注册帐号并经网易云网易云审核同意后，在网易云网易云上观看、学习网易云歌曲的用户。<br>
+
+										2.2网易云网易云平台（或网易云网易云不时修改的其他名称）：是有道公司出品的，与优秀教育者与教育机构合作，为用户提供教学内容的生成、传播和消费服务，由有道公司所有和经营的有关教育、学习等数字内容聚合、管理的线上教育产品，包括但不限于web端（网站网址：study.163.com及其不时更换的域名）及其各移动端（包括但不限于更新后的版本）。<br>
+										2.3
+										网易云歌曲：指由网易云网易云提供的，在网易云网易云平台上陈列、展示、供用户观看、学习的视频、语音、文字、图片、链接等网易云歌曲作品/制品。本定义下的网易云歌曲包括免费网易云歌曲与收费网易云歌曲。<br>
+										2.3.1 免费网易云歌曲：指网易云网易云无偿提供的，供用户免费观看、使用的网易云歌曲。<br>
+										2.3.2 收费网易云歌曲：指网易云网易云有偿提供的，供用户付费观看、使用的网易云歌曲。<br>
+										2.3.3VIP会员权益：指会员在注册成功后，根据向网易云网易云支付对价，所获得的针对网易云网易云特定网易云歌曲的优惠购买价格、网易云歌曲免费观看资格、免费阅读电子书、优惠券礼包及其他会员特有优惠权益，具体内容以《网易云网易云VIP会员使用协议》、云网易云官网、相关页面上发布的公告、规则为准。<br>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+										<button type="button" class="btn btn-danger">了解并同意</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="btn btn-lg btn-danger btn-block" type="submit">登 录</button>
+					<p class="mt-5 mb-3 text-black-50">&copy; 武汉软件工程职业学院 <br><small>2020-2023</small></p>
+				</form>
+			</div>
+		</div>
+
+
+		<script src="js/jQuery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.bundle.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var c = 1;
+				$(".cloud-product-ul>li").mouseenter(function() {
+					var e = $(this);
+					c = e.data("index");
+					var e = $(this);
+					setTimeout(function() {
+						if (c == e.data("index")) {
+							$(".cloud-product-ul>li").removeClass("active");
+							e.addClass("active")
+						}
+					}, 120)
+				});
+
+			});
+		</script>
+	</body>
+</html>

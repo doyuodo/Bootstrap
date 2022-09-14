@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>网易云音乐</title>
+		<!-- 网易云logo   小图标 -->
+		<meta property="og:image" content="img/logo.png" />
+		<link href="img/logo.png" rel="shortcut icon" type="image/x-icon" style="border-radius: 50%;">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> -->
+		<style type="text/css">
+			body {
+				background-color: #F5f5f5;
+			}
+
+			.w-93 {
+				width: 93% !important;
+			}
+
+			.border-top-da {
+				border-top: 5px solid #dc3545;
+			}
+
+			.nav-tabs .nav-link {
+				border: 0px solid transparent;
+				border-top-left-radius: 0.0rem;
+				border-top-right-radius: 0.0rem;
+			}
+
+			.nav-tabs .nav-link.active,
+			.nav-tabs .nav-item.show .nav-link {
+				color: #ffffff;
+				background-color: #191817;
+				border-color: #dee2e6 #dee2e6 #fff;
+			}
+
+			.page-link {
+				color: #313131;
+				background-color: #efefef;
+				border: 1px solid #d7dadd;
+			}
+
+			.page-item.active .page-link {
+				z-index: 1;
+				color: #fff;
+				background-color: #dc3545;
+				border-color: #d7dadd;
+			}
+			.form-control:focus {
+				color: #495057;
+				background-color: #fff;
+				border-color: #d32323;
+				outline: 0;
+				box-shadow: 0 0 0 0.2rem rgba(212, 16, 16, 0.2);
+			}
+			.bg-dark{
+				height: 80px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 导航栏 -->
+		<div class="bg-dark text-center shadow-lg ">
+			<nav class="navbar navbar-expand-xl navbar-dark bg-dark container ">
+				<h1 class="r"><a href="index.html"></a></h1>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarsExample06">
+					<ul class="list-inline list-unstyled text-center pt-2dian5 pl-2 nav nav-justified nav-tabs mr-auto">
+						<li class="list-inline-item px-1 h6 "><a href="#shouye" data-toggle="tab">首页</a></li>
+						<li class="list-inline-item px-2 h6 "><a href="#faxian" data-toggle="tab">发现音乐</a></li>
+						<li class="list-inline-item px-2 h6 "><a href="#pengyou" data-toggle="tab">朋友</a></li>
+						<li class="list-inline-item px-2 h6 "><a href="#wode" data-toggle="tab">我的音乐</a></li>
+						<li class="list-inline-item px-2 h6 "><a href="#yingyueren" data-toggle="tab">音乐人</a></li>
+						<li class="list-inline-item px-2 h6 "><a href="#xiazai" data-toggle="tab">下载客户端</a></li>
+					</ul>
+					<div class="">
+						<form class="form-inline">
+							<input class="form-control mr-2 shadow rounded-pill" type="text" placeholder="音乐/视频/电台/用户" aria-label="text">
+							<button class="btn btn-outline-danger my-2 rounded-pill" type="button"
+								onclick="window.location.href='index_two.html'">创作者中心</button>
+							<a href="index.jsp" class="pl-3 text-secondary" data-toggle="tab">登录</a>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- 搜索框 -->
+		<div class="border-top-da">
+			<div class="container">
+				<div class="row bg-white">
+					<div class="offset-3">
+						<!-- 空白区 -->
+					</div>
+					<div class="col-6">
+						<form class="card p-5">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="薛之谦">
+								<div class="input-group-append">
+									<button type="submit" class="btn btn-danger "><i class="bi bi-search"></i>搜索</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 歌曲部分 -->
+		<div class="container bg-white">
+			<ul class="nav nav-tabs bg-break w-93 ml-5">
+				<!-- 单曲 -->
+				<li class="nav-item">
+					<a class="nav-link active px-5" data-toggle="tab" href="#danqu">单曲</a>
+				</li>
+				<!-- 歌手 -->
+				<li class="nav-item">
+					<a class="nav-link px-5" data-toggle="tab" href="#geshou">歌手</a>
+				</li>
+				<!-- 专辑 -->
+				<li class="nav-item">
+					<a class="nav-link px-5" data-toggle="tab" href="#zhuangji">专辑</a>
+				</li>
+				<!-- 视频 -->
+				<li class="nav-item ">
+					<a class="nav-link px-5" data-toggle="tab" href="#shiping">视频</a>
+				</li>
+				<!-- 歌词 -->
+				<li class="nav-item ">
+					<a class="nav-link px-5" data-toggle="tab" href="#geci">歌词</a>
+				</li>
+				<!-- 歌单 -->
+				<li class="nav-item ">
+					<a class="nav-link px-5" data-toggle="tab" href="#gedan">歌单</a>
+				</li>
+				<!-- 用户 -->
+				<li class="nav-item ">
+					<a class="nav-link px-5" data-toggle="tab" href="#yonghu">用户</a>
+				</li>
+				<!-- 相似 -->
+				<li class="nav-item">
+					<a class="nav-link px-5" data-toggle="tab" href="#xiangsi">相似</a>
+				</li>
+			</ul>
+			<!-- 展示 content部分 -->
+			<div class="tab-content pb-5">
+				<!-- 单曲 -->
+				<div class="tab-pane fade show active ml-5 w-93" id="danqu">
+					<table class="table table-striped">
+						<tbody class="pt-3">
+							<tr></tr>
+							<tr>
+								<td class="text-left ">天外来物 <i class="bi bi-play-circle"></i></td>
+								<td class="mr-auto offset-10">&nbsp;</td>
+								<td class="mr-auto text-right ">薛之谦</td>
+								<td class="mr-auto text-right">《天外来物》</td>
+								<td class="mr-auto  text-center">3:40</td>
+							</tr>
+							<!-- yanyuan -->
+							<tr>
+								<td class="text-left ">演员 <i class="bi bi-play-circle"></i></td>
+								<td class="mr-auto offset-10">&nbsp;</td>
+								<td class="mr-auto text-right ">薛之谦</td>
+								<td class="mr-auto text-right">《演员》</td>
+								<td class="mr-auto  text-center">3:40</td>
+							</tr>
+							<!-- xiayule -->
+							<tr>
+								<td class="text-left ">我好像在哪见过你 <i class="bi bi-play-circle"></i></td>
+								<td class="mr-auto offset-10">&nbsp;</td>
+								<td class="mr-auto text-right ">薛之谦</td>
+								<td class="mr-auto text-right">《天外来物》</td>
+								<td class="mr-auto  text-center">3:40</td>
+							</tr>
+							<!-- zhichaung -->
+							<tr>
+								<td class="text-left ">渡 <i class="bi bi-play-circle"></i></td>
+								<td class="mr-auto offset-10">&nbsp;</td>
+								<td class="mr-auto text-right ">薛之谦</td>
+								<td class="mr-auto text-right">《天外来物》</td>
+								<td class="mr-auto  text-center">3:40</td>
+							</tr>
+							<tr>
+								<td class="text-left ">下雨了 <i class="bi bi-play-circle"></i></td>
+								<td class="mr-auto offset-10">&nbsp;</td>
+								<td class="mr-auto text-right ">薛之谦</td>
+								<td class="mr-auto text-right">《天外来物》</td>
+								<td class="mr-auto  text-center">3:40</td>
+							</tr>
+							<tr>
+								<td class="text-left ">人情世故 <i class="bi bi-play-circle"></i></td>
+								<td class="mr-auto offset-10">&nbsp;</td>
+								<td class="mr-auto text-right ">薛之谦</td>
+								<td class="mr-auto text-right">《天外来物》</td>
+								<td class="mr-auto  text-center">3:40</td>
+							</tr>
+						</tbody>
+					</table>
+					<ul class="pagination pagination-sm justify-content-center pt-3">
+						<li class="page-item disabled">
+							<a class="page-link" href="#" tabindex="-1">上一页</a>
+						</li>
+						<li class="page-item active"><a class="page-link mx-1" href="#">1</a></li>
+						<li class="page-item"><a class="page-link mx-1" href="#">2</a></li>
+						<li class="page-item"><a class="page-link mx-1" href="#">3</a></li>
+						<li class="page-item"><a class="page-link mx-1" href="#">4</a></li>
+						<li class="page-item"><a class="page-link mx-1 px-3" href="new_file.html">...</a></li>
+						<li class="page-item"><a class="page-link mx-1" href="new_file.html">99</a></li>
+						<li class="page-item">
+							<a class="page-link" href="index_three.html">下一页</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="tab-pane fade ml-5 w-93" id="geshou">
+					<div class="text-center p-4">
+						<p class="display-5">似乎没有网络...<a href="#" class="text-black-50">请联网后重试或者刷新试一试</a></p>
+					</div>
+					<ul class="pagination pagination-sm justify-content-center pt-3">
+						<li class="page-item disabled">
+							<a class="page-link" href="#" tabindex="-1">上一页</a>
+						</li>
+						<li class="page-item active"><a class="page-link mx-1" href="#">1</a></li>
+						<li class="page-item"><a class="page-link mx-1" href="#">2</a></li>
+						<li class="page-item"><a class="page-link mx-1" href="#">3</a></li>
+						<li class="page-item"><a class="page-link mx-1" href="#">4</a></li>
+						<li class="page-item"><a class="page-link mx-1 px-3" href="index_three.html">...</a></li>
+						<li class="page-item"><a class="page-link mx-1" href="index_three.html">99</a></li>
+						<li class="page-item">
+							<a class="page-link" href="#">下一页</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<!-- img-bottom -->
+		
+		<img src="img/音乐播放器.png" class="w-100 fixed-bottom d-md-block d-none " >
+		<!-- 版权 -->
+		<footer class="text-center p-4 border-top">
+			<div class="col-12  p-2">
+				© 2021-10-21 武汉软件工程职业学院
+			</div>
+		</footer>
+		<!-- js 部分    jQuery -->
+		<script src="js/jQuery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.bundle.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
