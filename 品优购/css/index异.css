@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* box-sizing: border-box; */
+}
+.fl{
+    float: left;
+    line-height: 31px;
+}
+.fl a{
+    color: #666;
+}
+.fl ul li,.fr ul li{
+    float: left;
+}
+
+.fr{
+    float: right;
+    line-height:31px;
+}
+.fr ul li:hover{
+    cursor: pointer;
+    color: rgb(214, 0, 0);
+}
+.fr ul li:nth-child(even){
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+.header{
+    height: 105px;
+    position: relative;
+    /* background-color: skyblue; */
+}
+.logo{
+    width: 230px;
+    height: 80px;
+}
+.logo a{
+    display: block;
+    position: absolute;
+    width: 230px;
+    height: 80px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: 188px 66px;
+    font-size: 0;
+    margin: 20px 0 0 ;
+}
+
+.sousuo{
+    position: absolute;
+    width: 538px;
+    height: 36px;
+    border: 2.2px solid rgb(202, 0, 0);
+    left: 344px;
+    top: 25px;
+}
+.sousuo input{
+    float: left;
+    width: 458px;
+    height: 36px;
+    padding-left:37px;
+}
+input,button{
+         border: 0;
+         outline: none;
+}
+.sousuo button{
+    float: left;
+    width: 80px;
+    height: 36px;
+    background-color:rgb(190, 0, 0) ;
+    color: snow;
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.reci{
+    position: absolute;
+    left: 346px;
+    top: 68.5px;
+}
+.reci a{
+    color: #666;
+    margin-top: 8px;
+    margin:10.5px;
+}
+.gouwuche{
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    width: 140px;
+    height: 35px;
+    border:1px solid silver;
+    background-color: #f7f7f7;
+    line-height: 33px;
+    text-align: center;
+    font-size: 13px;
+    
+}
+.gouwuche i{
+    position: absolute;
+    text-align: center;
+    width: 21px;
+    height: 14px;
+    border-radius: 7px 7px 7px 0;
+    top: -8px;
+    right: 14.5px;
+    background-color:#e60012;
+    color: #fff;
+    font-weight: 1000;
+    line-height: 14px;
+}
+.nav{
+    height: 55px;
+    border-bottom: 2px solid red;
+}
+.nav .left{
+      float: left;
+      width: 210px;
+      height: 54.88px;
+      background-color: #b1191a;
+}
+.left .dt{
+    width: 100%;
+    height: 100%;
+    line-height: 55px;
+    color: azure;
+    text-align: center;
+    font-size: 16px;
+}
+.left .dd{
+    display: block;
+    width: 100%;
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 3.11px;
+    /* text-align: center; */
+    color:#fff;
+    font-size: 14.5px;
+    line-height: 25px;
+}
+/* .left .dt:hover .left .dd{
+    display: block;
+} */
+.left .dd ul li{
+    position: relative;
+    height: 31px;
+    transition: all 0.3s linear;
+    line-height: 31px;
+}
+.left .dd ul li a{
+        margin: -12px;
+}
+
+.left .dd ul li:hover {
+    transform: scale(1.08);
+    background-color: #fff;
+}
+.left .dd ul li:hover a {
+    transform: scale(1.02);
+    color: rgba(255, 30, 0, 0.877);
+    margin-left: 25px;
+}
+.left .dd ul li a{
+    /* border: 0.5px solid rgb(255, 255, 255); */
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10.9px;
+}
+.nav .right{
+      float: left;
+      width: 800px;
+      height: 55px;
+      /* background-color: #ffffff; */
+      margin-left: 10px;
+      /* margin-left: 10px; */
+}
+.right ul li {
+    float: left;
+    /* padding-left: 50px; */
+    transition: all 0.56s;
+
+   
+}
+.right ul li:hover{
+    scale: 1.15;
+    color: saddlebrown;
+}
+.right ul li a{
+    display: block;
+    height: 55px;
+    color: #666;
+    line-height: 55px;
+    font-size: 16px;
+    padding:  0 25px;
+}
+.main{
+    height: 455px;
+    /* background-color: black; */
+    margin-left: 220px;
+    margin-top: 10px;
+ }
+ .focus{
+     float: left;
+     position: relative;
+     width: 721px;
+     height: 455px;
+     background-color: blanchedalmond;
+     overflow: hidden;
+ }
+ .focus .divv{
+     position: absolute;
+     left: 45px;
+     top: 428px;
+
+ }
+ .focus .divv ul{
+    width: 200px;
+    height: 15px;
+    /* background-color: aqua; */
+    border-radius: 15px;
+ }
+ .focus .divv ul li{
+     float: left;
+     width: 10px;
+     height: 10px;
+     margin-left: 6px;
+     border-radius: 50%;
+     /* background-color: bisque; */
+     border: 2px solid rgba(255, 255, 255, 0.5);
+     cursor: pointer;
+ }
+ .focus div ul li:nth-child(3){
+     background-color: #fff;
+ }
+ .focus .focus_icmoon_left{
+     position: absolute;
+     top: 48%;
+     left: 0;
+     text-align: center;
+     cursor: pointer;
+     transition: all 0.3s linear;
+     transform: translateX(-30px);
+     opacity: 0;
+     /* overflow: hidden; */
+ }
+ .focus:hover .focus_icmoon_left{
+     display: block;
+     transform: translateX(0px);
+     opacity: 1;
+     
+ }
+ .focus .focus_icmoon_left ul {
+     position: absolute;
+     background-color: rgb(43,43,43,.7); 
+ }
+
+ .focus .focus_icmoon_left ul li{
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(252, 252, 252);
+ }
+ .focus .focus_icmoon_right{
+    /* display: none; */
+    position: absolute;
+    top: 48%;
+    right: 3.3%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    transform: translateX(34px);
+    opacity: 0;
+    /* color: blue; */
+}
+.focus:hover .focus_icmoon_right{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.focus .focus_icmoon_right ul {
+    position: absolute;
+    background-color: rgb(43,43,43,.7); 
+
+}
+/* .focus .focus_icmoon_right ul:hover{
+     background-color: #000;
+} */
+.focus .focus_icmoon_right ul li{
+   width: 24px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 0;
+   font-weight: 500;
+   font-size: 14px;
+   color: rgb(252, 252, 252);
+}
+ .new{
+     float: right;
+     width: 250px;
+     height: 455px;
+     /* border: 1px solid #ccc; */
+     /* background-color: chocolate; */
+ }
+ .tongzhi{
+     height:165px;
+      border: 1px solid rgb(204, 204, 204);
+     /* background-color: chocolate; */
+ }
+ .tongzhi .dxv{
+     /* float: left; */
+     height: 33px;
+     border-bottom: 1px solid #ccc;
+     text-align: center;
+     line-height: 33px;
+ }
+ .tongzhi .dxv h5{
+     float: left;
+     padding-left: 10px;
+     font-size: 14px;
+     font-weight: 400;
+ }
+ .tongzhi .dxv a{
+     float: right;
+     padding-right: 15px;
+     font-size: 12px;
+ }
+ .tongzhi .dvx {
+     height: 125px;
+     line-height: 20px;
+ }
+
+ .tongzhi .dvx ul li{
+     margin-left: 10px;
+     font-size: 13px;
+     margin-top: 5px;
+     font-weight: 100;
+     transition: all 0.43s;
+ }
+ .tongzhi .dvx ul li:hover{
+     scale: 1.04;
+     font-weight: 100;
+ }
+ .jipiao{
+     position: relative;
+     height: 209px;
+     border: 1px solid #ccc;
+     /* background-color: cyan; */
+     border-top: 0;
+     overflow: hidden;
+ }
+.jipiao  ul li  i{
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background: url(../img/精灵图.png) no-repeat -15px -15px;
+}
+.jipiao  ul li a .dyb{
+    background: url(../img/精灵图.png) no-repeat -142px -15px;
+}
+.jipiao ul li a .jipiao1{
+    background: url(../img/精灵图.png) no-repeat -78px -15px;
+}
+.jipiao ul li a .yx{
+    background: url(../img/精灵图.png) no-repeat -205px -15px;
+}
+.jipiao ul li a .cp{
+    background: url(../img/精灵图.png) no-repeat -16px  -84px;
+}
+.jipiao ul li a .jyk{
+    background: url(../img/精灵图.png) no-repeat -16px -155px;
+}
+.jipiao ul li a .jd{
+    background: url(../img/精灵图.png) no-repeat -79px -155px;
+}
+.jipiao ul li a .hcp{
+    background: url(../img/精灵图.png) no-repeat -140px -151px;
+}
+.jipiao ul{
+   width: 255px;
+   /* overflow: hidden; */
+}
+.jipiao  ul li{
+    float: left;
+    width: 61px;
+    height: 60px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-left: 1px;
+    padding-top: 10px;
+    text-align: center;
+    /* overflow: hidden; */
+}
+ .jipiao .hot{
+    position: absolute;
+    width: 12px;
+    height: 15px;
+    left: 50px;
+    top: 0px;
+    background: url(../img/hot.jpg) no-repeat;
+}
+ .guanggao{
+     height: 75px;
+     background-color: darkcyan;
+     margin-top: 5px;
+     cursor: pointer;
+ }
+ .recom{
+     height: 163px;
+     background-color: #ebebeb;
+     margin-top: 12px;
+ }
+ .recom-he{
+     /* position: relative; */
+     float: left;
+     width: 200px;
+     height: 163px;
+     background-color: #5c5251;
+     text-align: center;
+ }
+ .recom-he img{
+     /* position: absolute; */
+     margin-top: 25px;
+ }
+.recom-he h4{
+    padding-top: 15px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+ .recom-bd{
+     float: left;
+ }
+ .recom-bd ul li{
+     float: left;
+     position: relative;
+     padding-top: 10px;
+     /* border-right: 1px solid #ccc; */
+ }
+ .floor{
+     margin-top: 12px;
+ }
+ .frist{
+     height: 451px;
+     /* background-color: rgb(114, 83, 12); */
+ }
+ .frist .frist_hd{
+     /* float: left; */
+     height: 31.6px;
+     border-bottom: 2px solid #c81623;
+ }
+ .frist .frist_hd .frist_hd1{
+    float: left;
+    height: 31.6px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+}
+.frist .frist_hd .frist_hd2{
+    float: right;
+    width: 685px;
+    height: 31px;
+    /* background-color: rgb(255, 255, 255); */
+}
+.frist .frist_hd .frist_hd2 ul li{
+    /* display: block; */
+    float: left;
+    height: 30px;
+    font-size: 12px;
+    /* margin-left: 10px; */
+    text-align: center;
+    line-height: 30px;
+    /* margin-left: 10px;
+    padding-left: 5px; */
+    margin-left: 0px;
+}
+.frist_hd2 ul li a{
+    margin: 0 15px;
+}
+.frist .frist_bd{
+    height: 362px;
+    /* background-color: aquamarine; */
+    overflow: hidden;
+}
+.frist .frist_bd>div{
+    float: left;
+    height: 360px;
+    text-align: center;
+}
+.bb_one{
+    width: 210px;
+    background-color: #f9f9f9;
+}
+.bb_one ul{
+    padding-left: 10px;
+}
+.bb_one ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    line-height: 35px;
+    text-align: center;
+    margin-left: 8px;
+}
+.bb_two{
+    width: 329px;
+    /* background-color: chartreuse; */
+    text-align: center;
+    overflow: hidden;
+}
+.bb_three{
+    width: 221px;
+     /* background-color: coral; */
+     border-right: 1px solid #ccc;
+     border-bottom: 1px solid #ccc;
+     overflow: hidden;
+}
+.bb_three01{
+    width: 219px;
+     /* background-color: coral; */
+     border-right: 1px solid #ccc;
+     border-bottom: 1px solid #ccc;
+     overflow: hidden;
+}
+
+.bb_four{
+    width: 218px;
+    /* background-color: cornflowerblue; */
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+
+}
+.bb_bb{
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 450px;
+    background-color: #f1f1f1;
+    padding-top: 30px;
+}
+.footer .one{
+    height: 110px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+.one ul li{
+    float: left; 
+    width: 220px;
+    height: 50px;
+    /* background-color: aquamarine; */
+    padding-top: 12px;
+    padding-left: 20px;
+}
+.one ul li h5{ 
+    float: left;
+    width: 51px;
+    height: 50px;
+    /* background-color: black; */
+    background: url(../img/精灵图.png) no-repeat -253px -2px;
+    line-height: 18px;
+}
+.one ul li .ruan {
+    float: left;
+    width: 50px;
+    height: 50px;
+    /* background-color: black; */
+    background: url(../img/精灵图.png) no-repeat -255px -54px;
+    line-height: 18px;
+}
+.one ul li .xiao {
+    float: left;
+    width: 50px;
+    height: 50px;
+    /* background-color: black; */
+    background: url(../img/精灵图.png) no-repeat -257px -157px;
+    line-height: 18px;
+}
+.one ul li .xia {
+    float: left;
+    width: 50px;
+    height: 50px;
+    /* background-color: black; */
+    background: url(../img/精灵图.png) no-repeat -256px -105px;
+    line-height: 18px;
+}
+.oneo h4{
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 12px;
+}
+.oneo p{
+    padding-top: 5px;
+    margin-left: 60px;
+    font-size: 14px;
+}
+.footer .two{
+    float: left;
+    height: 210px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+.footer .two .div dl{
+    float: left;
+    width: 150px;
+    padding: 20px 0 0 50px;
+}
+.footer .two dt {
+    height: 25px;
+    font-size: 16px;
+}
+.footer .two  dd{
+    height: 22px;
+    margin-top: 1px;
+    font-size: 13px;
+}
+.dvi dt{
+    position: relative;
+    left: 17px;
+    top: 2px;
+    margin-bottom: 2px;
+}
+.dvi  dd img{
+    position: relative;
+    top: 10px;
+}
+.dvi  dd p{
+    position: relative;
+    margin-top: 8px;
+    left: 12px;
+}
+.three{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+ #peng{
+   margin: 0 0 0 50px;
+   margin-left: -5px;
+}
+.fu{
+    padding-top: 15px;
+    line-height: 18px;
+}

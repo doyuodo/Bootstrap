@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* box-sizing: border-box; */
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?kl593a');
+  src:  url('../fonts/icomoon.eot?kl593a#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?kl593a') format('truetype'),
+    url('../fonts/icomoon.woff?kl593a') format('woff'),
+    url('../fonts/icomoon.svg?kl593a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.fl,.fr,.sousuo,.gouwuche{
+    font-family: 'icomoon';
+  }
+.icomoon::after{
+        content:'' ;
+        /* 小图标 */
+        margin: 1.2px;
+        text-align: center;
+        line-height: 31px;
+}
+.kaitou{
+    height: 31px;
+    background-color: #f1f1f1;
+    color: #666;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+    color:#666 ;
+}
+#style-red{
+    color: rgb(212, 0, 0);
+}
+#style-red1{
+  color: #c81623;
+}
+.kaitou  a:hover{
+    color: rgb(214, 0, 0);
+}
+.header a:hover{
+  color: rgb(214, 0, 0);
+}
+
+.xiaologo{
+  position: absolute;
+  left: 9.2px;
+  top: 6.7px;
+}
+.xiaologo::after{
+  content: '';
+  color: crimson;
+  font-size: 17px;
+  cursor: pointer;
+}
+.erweima{
+  position: absolute;
+  right: 95px;
+  top: 6.7px;
+  font-size: 20px;
+}
+.erweima::after{
+  content: '\e938';
+  cursor: pointer;
+
+}
+.gouwuche::before{
+  font-family: 'icomoon';
+  content: '\e93a';
+  color: rgb(219, 0, 0);
+  margin-left: 10px;
+  margin: 3px;
+}
+.left .dd ul li::after{
+  position: absolute;
+  font-family: 'icomoon';
+  content: '\e9a9';
+  left: 90%;
+  color: rgb(255, 211, 157);
+}
+.right a:hover{
+  color: rgb(214, 0, 0);
+}
+.div a:hover{
+  color: rgb(214, 0, 0);
+}
+a{
+  color: #666;
+}
+a:hover{
+  color: rgb(214, 0, 0);
+}
+.recom-bd ul li:nth-child(-n+3):after{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 2px;
+  height: 145px;
+  background-color: rgba(221, 221, 221, 0.89);
+}
+#style_olive{
+   color: rgb(189, 189, 0);
+}
+.frist_bd img{
+  transition: all 0.2s linear;
+}
+.frist_bd img:hover {
+  margin-left: 6px;
+}
+.tongzhi .dvx span{
+  font-family: 'icomoon';
+  color: #ff2230;
+}

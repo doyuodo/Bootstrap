@@ -1,0 +1,392 @@
+/*！
+    彭福生版权的Bootstrap
+*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a,
+img {
+	border: 0;
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0
+}
+
+.cloud-product-box {
+	background: url(../img/20.jpg) center  center no-repeat;
+}
+
+.cloud-product-wrapper {
+	margin: 0 auto;
+	width: 1200px
+}
+
+.cloud-product {
+	position: relative;
+	z-index: 9;
+	padding: 80px 0 80px
+}
+
+.cloud-product-title {
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 33px;
+	color: #333
+}
+
+
+
+.cloud-product-explain {
+	margin-top: 26px;
+	margin-bottom: 82px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	font-size: 16px;
+	color: #999
+}
+
+.cloud-product-ul {
+	width: 100%
+}
+
+.cloud-product-ul li {
+	position: relative;
+	margin-left: 12px;
+	width: 212px;
+	height: 522px;
+	float: left;
+	background: #504f4b;
+}
+
+.cloud-product-ul li:first-child {
+	margin-left: 0
+}
+
+.cloud-product-single-top {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #f2f2f2
+}
+
+.cloud-product-name {
+	font-size: 18px;
+	color: #333;
+	font-weight: 700
+}
+
+.cloud-product-single-bottom {
+	width: 100%;
+	height: 340px
+}
+
+.empty-space {
+	width: 100%;
+	height: 99px;
+	padding: 26px 0 0 0;
+}
+
+.single-bottom-item {
+	height: 340px;
+	width: 100%
+}
+
+.single-bottom-item:first-child {
+	border-right: 1px solid #eee
+}
+
+.bg-product-pic {
+	width: 100%;
+	height: 82px
+}
+/* ic01 */
+.server-header-01 {
+	background: url(../img/product_header_icon_01.png) center no-repeat
+}
+
+.server-header-02 {
+	background: url(../img/product_header_icon_02.png) center no-repeat
+}
+
+.server-header-03 {
+	background: url(../img/product_header_icon_03.png) center no-repeat
+}
+
+.server-header-04 {
+	background: url(../img/product_header_icon_04.png) center no-repeat
+}
+
+.server-header-05 {
+	background: url(../img/product_header_icon_05.png) center no-repeat
+}
+
+/* ic  */
+.server-header-active-01 {
+    background: url(../img/product_header_active_icon_01.png) center no-repeat;
+	
+}
+
+.server-header-active-02 {
+	background: url(../img/product_header_active_icon_02.png) center no-repeat
+}
+
+.server-header-active-03 {
+	background: url(../img/product_header_active_icon_03.png) center no-repeat
+}
+
+.server-header-active-04 {
+	background: url(../img/product_header_active_icon_04.png) center no-repeat
+}
+
+.server-header-active-05 {
+	background: url(../img/product_header_active_icon_05.png) center no-repeat
+}
+
+.product-introduce-title {
+	margin-bottom: 25px;
+	height: 22px;
+	line-height: 45px;
+	font-size: 22px;
+	text-align: center
+}
+
+.product-introduce-title.normal-weight {
+	font-weight: 400
+}
+
+.product-introduce-content {
+	margin: 0 auto 26px;
+	width: 180px;
+	line-height: 14px;
+	font-size: 14px;
+	text-align: center;
+	color: #999
+}
+
+.product-introduce-list {
+	margin: 0 auto;
+	padding-top: 28px;
+	height: 135px;
+	width: 84%;
+	border: 1.5px solid #f1f1f1;
+	border-left: none;
+	border-right: none
+
+}
+
+.introduce-list-small {
+	margin-bottom: 18px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #999;
+	text-align: center;
+}
+
+.product-introduce-price {
+	margin: 48px auto 0;
+	font-size: 14px;
+	text-align: center;
+	color: #333;
+}
+
+.price-blue {
+	color: #cb0000;
+	font-size: 38px
+}
+
+.normal-inner {
+	transition: all 1.5s ease-in-out;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s
+}
+
+.active-inner {
+	position: relative;
+	display: none;
+	height: 100%;
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	transition: all 10s ease-in;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s
+}
+
+.introduce-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 360px
+}
+
+.active-inner-01 ,.active-inner-02,.active-inner-03,.active-inner-04,.active-inner-05 {
+	background: url(../img/producet_bg_01.jpg);
+}
+.cloud-product-ul li.active .active-inner {
+	display: block;
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1
+}
+
+.cloud-product-ul li.active .normal-inner {
+	display: none;
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0
+}
+
+.cloud-product-ul li {
+	-webkit-box-shadow: 1px 1px 12px rgba(0, 0, 0, .08);
+	-moz-box-shadow: 1px 1px 12px rgba(0, 0, 0, .08);
+	box-shadow: 1px 1px 12px rgba(0, 0, 0, .08);
+	-webkit-transition: width 0.23s ease-in-out;
+	-o-transition: width 0.23s ease-in;
+	-moz-transition: width 0.23s ease-in;
+	transition: width 0.23s ease-in
+}
+
+.cloud-product-ul li.active {
+	z-index: 9;
+	width: 304px;
+	-webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 4px 20px rgba(0, 0, 0, .2);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, .2)
+}
+
+.active .product-introduce-content {
+	color: #9a9a9a
+}
+
+.active-product-introduce-title {
+	color: #fff
+}
+
+.active .product-introduce-list {
+	padding-top: 22px;
+	border-color: #fdfdfd;
+}
+
+.introduce-list-large {
+	margin: 0 auto;
+	width: 228px;
+	line-height: 22px;
+	color: #ddebff;
+	font-size: 14px
+}
+
+.active .product-introduce-price {
+	margin-top: 30px;
+	font-size: 16px;
+	color: #000000;
+}
+
+.product-introduce-price .price-white {
+	display: inline-block;
+	font-size: 36px;
+	height: 36px;
+	line-height: 36px;
+	color: #fff
+}
+
+.buy-link-btn {
+	display: block;
+	margin: 30px auto 0;
+	width: 90%;
+	height: 40px;
+	background-color: #ffa200;
+	color: #fff;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0
+}
+
+.buy-link-btn:hover {
+	background-color: #f80
+}
+	
+.p{
+	line-height: 1;
+	font-weight: 300;
+}
+
+
+
+
+html,
+body {
+  height: 100%;
+}
+
+/* body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fafafa;
+  彭福生版权
+} */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.mt-6,
+.my-6 {
+	margin-top: 6rem !important;
+}
+.modal-body{
+	font-size: 13px;
+}
+.text-muted {
+	font-weight: 100;
+	color: rgb(255, 255, 255,.7)!important;
+}
+/*！
+    彭福生版权的Bootstrap
+*/
+/*！
+    彭福生版权的Bootstrap
+*/
